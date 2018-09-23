@@ -10,3 +10,5 @@ bool execute() - called multiple times - returns true if execution has completed
 void end() - called once after execute() returns true.
 
 A command can do anything, but should NOT contain delay loops. If there are time based things, use the millis() function and check to see if the time to do your thing has passed.
+
+This code is inspired by the FRC (https://www.firstinspires.org/robotics/frc) WPIlib Command style of robot programming.
